@@ -9,7 +9,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
 
 /* ----------------------
     header part design 
@@ -106,14 +110,39 @@ body{
 }
 
 /* ----------------------
+    news part design 
+-----------------------*/
+.news-container{
+    display: flex;
+    justify-content: center;
+}
+
+.all-news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.news{
+    width: 400px;
+    padding: 10px;
+}
+
+.news img{
+    width: 100%;
+}
+
+.news p{
+    color: gray;
+}
+
+.news h3>a{
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+
+/* ----------------------
     league design 
 -----------------------*/
-
-.league-title{
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-}
 .league-container{
     display: flex;
     justify-content: center;
@@ -240,6 +269,15 @@ body{
     }
 
     .league{
+        margin: 5px;
+    }
+
+    /* --all news part-- */
+
+    .all-news{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .news{
         margin: 5px;
     }
 }
