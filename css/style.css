@@ -97,3 +97,31 @@ body{
     color: #6c6c6c;
     text-align: justify;
 }
+
+/* ----------------------
+    players part design 
+-----------------------*/
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.football-logo{
+    width: 450px;
+    margin-top: 158px;
+    margin-bottom: 20px;
+}
+
+.social-media{
+    margin-bottom: 20px;
+}
+
+.fab{
+    color: #969BAB;
+    background-color: #E7E7E8;
+    border-radius: 50%;
+    padding: 10px;
+}
