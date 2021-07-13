@@ -46,15 +46,19 @@ body{
 .watch-button{
     border: none;
     background-color: #E02C6D;
-    color: white;
     padding: 10px 24px;
-    font-style: normal;
+}
+
+.watch-button>a{
+    text-decoration: none;
+    color: white;
     font-weight: 500;
     font-size: 16px;
 }
 
 .watch-button>i{
     margin-left: 3px;
+    color: white;
 }
 
 /* ----------------------
