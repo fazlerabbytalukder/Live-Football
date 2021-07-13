@@ -103,6 +103,52 @@ body{
 }
 
 /* ----------------------
+    league design 
+-----------------------*/
+
+.league-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.league-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.all-league{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+
+.league{
+    background: white;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.league img{
+    width: 50%;
+}
+
+.league h3>a{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+
+
+
+/* ----------------------
     footer design 
 -----------------------*/
 
@@ -115,7 +161,7 @@ body{
 
 .football-logo{
     width: 450px;
-    margin-top: 158px;
+    margin-top: 58px;
     margin-bottom: 20px;
 }
 
@@ -128,4 +174,14 @@ body{
     background-color: #E7E7E8;
     border-radius: 50%;
     padding: 10px;
+}
+
+
+/* ----------------------
+    media query 
+-----------------------*/
+
+
+@media only screen and (max-width: 688px){
+
 }
