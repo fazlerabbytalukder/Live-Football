@@ -21,14 +21,17 @@ body{
 
 .banner{
     display: flex;
+    align-items: center;
 }
 
 .banner-text{
     width: 50%;
+    margin-right: 25px;
 }
 
 .banner-image{
     width: 50%;
+    margin-left: 25px;
 }
 
 .banner-image img{
@@ -183,5 +186,54 @@ body{
 
 
 @media only screen and (max-width: 688px){
+    .header{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-text{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .banner-image{
+        width: 100%;
+        margin-left: 0;
+    }
 
+    .banner-image img{
+        width: 100%;
+    }
+    .players{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .players-container{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0;
+    }
+
+    .player{
+        width: 98%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .all-league{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .league{
+        margin: 5px;
+    }
 }
