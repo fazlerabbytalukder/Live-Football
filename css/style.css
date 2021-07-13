@@ -184,12 +184,13 @@ body{
     media query 
 -----------------------*/
 
-
+/* --------for mobile-------- */
 @media only screen and (max-width: 688px){
+    /* --header part-- */
     .header{
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 90%;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .banner{
         width: 100%;
@@ -200,16 +201,23 @@ body{
         margin-right: 0;
         margin-bottom: 50px;
     }
+    .website-title{
+        font-size: 36px;
+    }
+
     .banner-image{
         width: 100%;
         margin-left: 0;
     }
 
     .banner-image img{
-        width: 100%;
+        width: 95%;
     }
+
+    /* --players part-- */
+
     .players{
-        width: 100%;
+        width: 90%;
         flex-direction: column;
     }
 
@@ -225,9 +233,7 @@ body{
         margin-right: 15px;
     }
 
-    .description {
-        width: 100%;
-    }
+    /* --all league part-- */
 
     .all-league{
         grid-template-columns: repeat(1,1fr);
