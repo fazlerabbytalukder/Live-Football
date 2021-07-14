@@ -275,14 +275,17 @@ body{
     /* --players part-- */
 
     .players{
-        width: 90%;
-        flex-direction: column;
+        width: 87%;
+        margin-left: 2%;
     }
 
     .players-container{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 0;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .player{
@@ -302,9 +305,18 @@ body{
     /* --all news part-- */
 
     .all-news{
-        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
     }
-    
+
+    .news-part{
+        width: 97%;
+        margin-left: 1%;
+    }
     /* --footer part-- */
 
     .football-logo{
