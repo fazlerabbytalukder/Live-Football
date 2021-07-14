@@ -1,7 +1,9 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/* utilities/common design */
+/* ----------------------------
+    utilities/common design 
+-----------------------------*/
 
 body{
     margin: 0;
@@ -19,18 +21,11 @@ body{
 /* ----------------------
     header part design 
 -----------------------*/
+
 .banner-section{
     background-color: #2D25A0;
     padding: 86px;
 }
-
-.banner-section:hover .banner-img{
-    transform: rotate(360deg) scale(0.85);
-    transform-origin: center;
-    overflow: hidden;
-    transition: transform 3s ease-in-out;
-}
-
 .banner{
     display: flex;
     justify-content: space-between;
@@ -49,6 +44,13 @@ body{
 
 .banner-image img{
     width: 100%;
+}
+
+.banner-section:hover .banner-img{
+    transform: rotate(360deg) scale(0.85);
+    transform-origin: center;
+    overflow: hidden;
+    transition: transform 3s ease-in-out;
 }
 
 .website-title{
@@ -103,6 +105,7 @@ body{
     color: white;
 }
 
+
 /* ----------------------
     players part design 
 -----------------------*/
@@ -144,9 +147,12 @@ body{
     text-align: justify;
 }
 
+
 /* ----------------------
     news part design 
 -----------------------*/
+
+
 .news-container{
     display: flex;
     justify-content: center;
@@ -178,6 +184,8 @@ body{
 /* ----------------------
     league design 
 -----------------------*/
+
+
 .league-container{
     display: flex;
     justify-content: center;
@@ -213,8 +221,6 @@ body{
 }
 
 
-
-
 /* ----------------------
     footer design 
 -----------------------*/
@@ -241,12 +247,14 @@ body{
     background-color: #E7E7E8;
     border-radius: 50%;
     padding: 10px;
+    margin-right: 5px;
 }
 
 
 /* ----------------------
     media query 
 -----------------------*/
+
 
 /* --------for mobile-------- */
 @media only screen and (max-width: 688px){
