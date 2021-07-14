@@ -221,7 +221,7 @@ body{
 }
 
 .football-logo{
-    width: 450px;
+    width: 400px;
     margin-top: 58px;
     margin-bottom: 20px;
 }
@@ -286,7 +286,7 @@ body{
     }
 
     .player{
-        width: 98%;
+        width: 100%;
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -307,6 +307,12 @@ body{
         grid-template-columns: repeat(1,1fr);
     }
     .news{
-        margin: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .football-logo{
+        width: 250px;
+        margin-bottom: 6px;
     }
 }
