@@ -19,7 +19,7 @@ body{
 }
 
 /* ----------------------
-    header part design 
+    banner part design 
 -----------------------*/
 
 .banner-section{
@@ -247,7 +247,6 @@ body{
     background-color: #E7E7E8;
     border-radius: 50%;
     padding: 10px;
-    margin-right: 5px;
 }
 
 
@@ -258,7 +257,7 @@ body{
 
 /* --------for mobile-------- */
 @media only screen and (max-width: 688px){
-    /* --header part-- */
+    /* --banner part-- */
     .banner-section{
         width: 90%;
         padding-left: 16px;
@@ -329,5 +328,71 @@ body{
     .football-logo{
         width: 250px;
         margin-bottom: 6px;
+    }
+}
+
+
+/* --------for Tablet part-------- */
+
+@media only screen and (min-width: 689px) and (max-width: 991px){
+    /* --banner part-- */
+    .banner-section{
+        width: 90%;
+        padding: 8% 4%;
+    }
+
+    .website-title{
+        font-size: 40px;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .banner-text{
+        width: 100%;
+    }
+
+    .banner-image{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+
+    /* --players part-- */
+
+    .players{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .players-container{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* --all news part-- */
+
+    .all-news{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .title{
+        font-size: 30px;
+    }
+
+    /* --all league part-- */
+
+    .all-league{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .league{
+        margin: 5px;
     }
 }
