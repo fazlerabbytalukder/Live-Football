@@ -287,8 +287,6 @@ body{
 
     .player{
         width: 100%;
-        margin-left: 15px;
-        margin-right: 15px;
     }
 
     /* --all league part-- */
@@ -306,11 +304,7 @@ body{
     .all-news{
         grid-template-columns: repeat(1,1fr);
     }
-    .news{
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
+    
     /* --footer part-- */
 
     .football-logo{
